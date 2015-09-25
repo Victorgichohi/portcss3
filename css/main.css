@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 100%;
+	background:#f8f8f8;
+
+}
+
+#banner{
+	width: 100%;
+	height: 700px;
+	background-image:url(../assets/rail1.jpg);
+	background-size: cover;
+	background-color: gray;
+	opacity: 0.5%;
+
+}
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #ffffff;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+padding: 15px;
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.8);
+color: rgba(1, 1, 1, 0.8);
+z-index: 40;
+}
+#navigation a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+text-decoration: none;
+}
+#navigation a:hover {
+color: gray;
+}
+.skill{
+	position: relative;
+  padding-top: -50px;
+    font-family: "Ubuntu", sans-serif;
+}
+.skill1{
+	position: relative;
+	margin-right: 300px;
+	
+}
+.project{
+	position: relative;
+	margin-right: 300px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.contact{
+	position: relative;
+    font-family: "Ubuntu", sans-serif;
+}
+#skills{
+	height: 550px;
+	background-color: gray;
+	opacity: 0.5%;
+
+}
+.skilldiv{
+	padding-top: 150px;
+}
+#projects{
+	background-color: E2B7E8;
+	margin-top: 30px;
+}
+.projectsdiv{
+	padding-top: 20px;
+}
+/*Project image styling*/
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 300px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 300px;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/*typed.js*/
+
+
+
+p{
+	font-size: 90px;
+	
+	  font-family: 'Boogaloo', sans-serif;
+	text-align: center;
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+	text-align: center;
+}
+
+.type-wrap{
+	font-size: 70px;
+	color: gray;
+	padding:60px;
+  font-family: 'Boogaloo', sans-serif;
+	
+}
+#contact{
+  background-color: gray;
+}
+.links a{
+  font-family: 'Boogaloo', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
